@@ -13,8 +13,9 @@
 			echo "<p>Os valores Intermediários de $num1 e $num2</p>";
 			for ($cont = $num1 + 1 ;$cont < $num2; $cont++) {
 				
-				echo "$cont ";
-				
+				if ($cont % 2 == 1 ){
+					echo " $cont ";
+				}
 			}
 		?>
 	</body>
